@@ -3,9 +3,9 @@
 function Greeting() {
     return (
         <div>
-            <h1>
+            <h3>
                 Привет React!
-            </h1>
+            </h3>
         </div>
     );
 

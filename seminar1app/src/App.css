@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.App-eventCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.App-seminar {
+  color: crimson;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
