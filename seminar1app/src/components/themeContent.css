@@ -1,0 +1,12 @@
+﻿
+.themeContentDark {
+    border: solid 2px white;
+    color: white;
+    padding: 20px;
+}
+.themeContentLight {
+    border: solid 2px black;
+    color: black;
+    background-color: white;
+    padding: 20px;
+}

@@ -1,0 +1,27 @@
+﻿.temperature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.resultTemperature {
+    border: solid 1px rgb(52, 48, 48);
+    border-radius: 4px;
+    text-align: center;
+    height: 53px;
+    margin-top: 18px;
+}
+
+.result {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.f-c {
+    margin-top: 17px;
+}

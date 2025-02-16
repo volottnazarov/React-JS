@@ -7,6 +7,10 @@ import Counter from './components/counter';
 import TextInput from './components/textInput';
 import TodoList from './components/todoList';
 import Timer from './components/timer';
+import CounterDuo from './components/counterDuo';
+import MessagesList from './components/messageslist';
+import ThemeSwitcher from './components/themeSwitcher';
+import TextDisplayForm from './components/textDisplayForm';
 
 function App() {
   return (
@@ -26,6 +30,14 @@ function App() {
         <TextInput />
         <TodoList />
         <Timer />
+        <h3 className='App-seminar'>Семинар 3</h3>
+        <CounterDuo />
+        <h4>*** Мессенджер ***</h4>
+        <MessagesList />
+        <h4>Переключатель темы</h4>
+        <ThemeSwitcher />
+        <h4>Отображение текста</h4>
+        <TextDisplayForm />
       </header>
     </div>
   );
