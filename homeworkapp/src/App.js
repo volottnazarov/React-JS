@@ -1,9 +1,11 @@
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 // import CommentsList from './components/commentsList';
 // import Message from './components/message';
-import TemperatureConverter from './components/temperatureConverter';
-import TodoList from './components/todoList';
+// import TemperatureConverter from './components/temperatureConverter';
+// import TodoList from './components/todoList';
+import HomePage from './components/homePage';
+import AboutPage from './components/aboutPage';
 
 
 function App() {
@@ -20,10 +22,19 @@ function App() {
           <CommentsList />
           <h3>* * *</h3>
         </div> */}
-        <div>
+        {/* <div>
           <h3>~ HomeWork 3 Seminar ~</h3>
           <TemperatureConverter />
           <TodoList />
+        </div> */}
+        <div>
+          <h3>~ HomeWork 4 Seminar ~</h3>
+          <BrowserRouter>
+            <Routes>
+              <Route path='/' element={<HomePage />} />
+              <Route path='/about' element={<AboutPage />} />
+            </Routes>
+          </BrowserRouter>
         </div>
       </header>
     </div>
