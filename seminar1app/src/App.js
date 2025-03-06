@@ -18,6 +18,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DetailPage from './components/detailPage';
 import { dataRoute } from './components/dataRoute';
 import ListPage from './components/listPage';
+import GrandParent from '../../seminar5app/src/components/context';
 
 function App() {
   return (
@@ -62,6 +63,11 @@ function App() {
             <Route path='detail/:id' element={<DetailPage items={dataRoute} />}></Route>
           </Routes>
         </BrowserRouter>
+        <h3 className='App-seminar'>Семинар 5</h3>
+        <h4>Context</h4>
+        <div>
+          <GrandParent />
+        </div>
       </header>
     </div>
   );
